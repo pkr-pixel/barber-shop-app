@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Classic Cuts Barber Shop",
+  title: "Saman's Barbier",
   description: "Book your next appointment",
 };
 
@@ -22,7 +22,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       {/* 2. Use the .variable property from the constants created above */}
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
