@@ -16,7 +16,9 @@ import {
 const STYLISTS = [
   { id: "1", name: "Marco (Master Barber)", image: "✂️" },
   { id: "2", name: "Elena (Stylist)", image: "🎨" },
-  { id: "3", name: "Junior (Barber)", image: "💈" },
+  { id: "3", name: "Victor (Stylist Junior)", image: "💈" },
+  { id: "4", name: "Daniel (Stylist Junior)", image: "💈" },
+  { id: "5", name: "Erika (Barber)", image: "💈" },
 ];
 
 const SERVICES = [
